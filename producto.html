@@ -91,272 +91,359 @@
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select></span>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-danger justify-content-end" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2">
+                            Deshailitar
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Deshabilitar</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ¿Estás seguro de que deseas deshabilitar?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">No</button>
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Si</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary justify-content-end" data-bs-toggle="modal"
+                            data-bs-target="#exampleModalTS3">
+                            Registrar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalTS3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Registro</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Categoría</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Código del
+                                                servicio</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Servicio</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Descripción</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Tipos de
+                                                establecimientos</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">¿Cuenta con
+                                                establecimientos disponibles?</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="inlineRadio1" value="option1">
+                                                <label class="form-check-label" for="inlineRadio1">No</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    class="form-check-input" id="validationFormCheck1" required="">
+                                                <label class="form-check-label" for="inlineRadio2">Si</label>
+                                                <div class="valid-feedback">
+                                                    <label for="exampleFormControlInput1" class="form-label">¿Con
+                                                        cuántos
+                                                        establecimientos disponibles cuenta?</label>
+                                                    <button type="button" class="btn btn-primary justify-content-end"
+                                                        data-bs-toggle="modal" data-bs-target="#S1">
+                                                        1
+                                                    </button>
+                                                    <div class="modal fade" id="S1" tabindex="-1"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="mb-3">
+                                                                        <h1 class="modal-title fs-5"
+                                                                            id="exampleModalLabel">
+                                                                            Información del primer establecimiento</h1>
+                                                                        <label for="exampleFormControlInput1"
+                                                                            class="form-label">Código</label>
+                                                                        <input type="number" class="form-control"
+                                                                            id="exampleFormControlInput1"
+                                                                            placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary"
+                                            data-bs-dismiss="modal">Registrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success justify-content-end" data-bs-toggle="modal"
+                            data-bs-target="#exampleModalCS2">
+                            Actualizar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCS2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar
+                                            la Información
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Código</label>
+                                            <input type="Number" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Descripción</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Tipo de
+                                                servicios</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary"
+                                            data-bs-dismiss="modal">Actualizar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="table-responsive py-5">
                         <table class="table table-striped table-hover">
                             <thead>
                                 <tr class="table-danger">
                                     <th scope="col">N.</th>
-                                    <th scope="col">Código</th>
-                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Categoría</th>
+                                    <th scope="col">Código del servicio</th>
+                                    <th scope="col">Servicio</th>
                                     <th scope="col">Descripción</th>
-                                    <th scope="col">Cantidad</th>
-                                    <th scope="col">Descripción</th>
-                                    <th scope="col">Valor($)</th>
-                                    <th scope="col">Inventario</th>
-                                    <th scope="col">Categorías</th>
-                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Tipos de establecimientos</th>
+                                    <th scope="col">Establecimientos disponibles</th>
+                                    <th scope="col">Editar</th>
+                                    <th scope="col">Deshabilitar</th>
                                     <th scope="col">Selec.</th>
-
-
                                 </tr>
                             </thead>
                             <tbody class="table-group-divider">
                                 <tr>
                                     <th scope="row">1</th>
-                                    <td>111</td>
-                                    <td>Teléfono Celular</td>
-                                    <!-- Cambiar la imagen -->
-                                    <td><img style="width: 50px;" src="img/989536-800-auto-removebg-preview.png" alt="">
+                                    <td>Aseo y presentación.</td>
+                                    <td>1-1</td>
+                                    <td>Lavandería</td>
+                                    <td>Lava tu ropa.</td>
+                                    <td>Lavanderías.</td>
+                                    <td>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS1"><i class="bi bi-eye-fill"></i></button>
                                     </td>
-                                    <!-- Cambiar la imagen -->
-                                    <td>20</td>
-                                    <td>Teléfono inteligente.</td>
-                                    <td>1.250.000</td>
-                                    <td>20</td>
-                                    <td>Entretenimiento.</td>
-                                    <td>01-01-2024</td>
+                                    <td>
+                                        <button class="btn btn-success" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS2"><i class="bi bi-pencil-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-danger" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal2"><i class="bi bi-trash-fill"></i></button>
+                                    </td>
                                     <td>
                                         <div class="mb-3 form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                             <label class="form-check-label" for="exampleCheck1"></label>
                                         </div>
                                     </td>
-
-
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>222</td>
-                                    <td>Computadora Portátil</td>
-                                    <!-- Cambiar la imagen -->
-                                    <td><img style="width: 50px;" src="img/descarga__1_-removebg-preview.png" alt="">
+                                    <td>Aseo y presentación.</td>
+                                    <td>1-2</td>
+                                    <td>Peluquerías</td>
+                                    <td>¡Mejora tu estilo!</td>
+                                    <td>Peluquerías, barberías y salones de belleza.</td>
+                                    <td>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS1"><i class="bi bi-eye-fill"></i></button>
                                     </td>
-                                    <!-- Cambiar la imagen -->
-                                    <td>20</td>
-                                    <td>Computadora portátil inteligente.</td>
-                                    <td>2.800.000</td>
-                                    <td>20</td>
-                                    <td>Trabajo.</td>
-                                    <td>01-01-2024</td>
+                                    <td>
+                                        <button class="btn btn-success" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS2"><i class="bi bi-pencil-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-danger" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal2"><i class="bi bi-trash-fill"></i></button>
+                                    </td>
                                     <td>
                                         <div class="mb-3 form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                             <label class="form-check-label" for="exampleCheck1"></label>
                                         </div>
                                     </td>
-
-
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
-                                    <td>333</td>
-                                    <td>Reloj Inteligente</td>
-                                    <!-- Cambiar la imagen -->
-                                    <td><img style="width: 50px;"
-                                            src="img/png-clipart-silver-smartwatch-smart-watch-objects-clock-and-watches-thumbnail-removebg-preview.png"
-                                            alt=""></td>
-                                    <!-- Cambiar la imagen -->
-                                    <td>20</td>
-                                    <td>Reloj de correa inteligente con pantalla táctil, etc.</td>
-                                    <td>350.000</td>
-                                    <td>20</td>
-                                    <td>Dispositivos Electrónicos.</td>
-                                    <td>01-01-2024</td>
+                                    <td>Salud.</td>
+                                    <td>2-1</td>
+                                    <td>Gimnasio</td>
+                                    <td>¡Fortalece tu cuerpo!</td>
+                                    <td>Gimnasios.</td>
+                                    <td>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS1"><i class="bi bi-eye-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS2"><i class="bi bi-pencil-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-danger" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal2"><i class="bi bi-trash-fill"></i></button>
+                                    </td>
                                     <td>
                                         <div class="mb-3 form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                             <label class="form-check-label" for="exampleCheck1"></label>
                                         </div>
                                     </td>
-
-
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Salud.</td>
+                                    <td>2-2</td>
+                                    <td>Atención médica</td>
+                                    <td>¡La salud es importante!</td>
+                                    <td>Centros médicos, hospitales, clínicas y farmacias.</td>
+                                    <td>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS1"><i class="bi bi-eye-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS2"><i class="bi bi-pencil-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-danger" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal2"><i class="bi bi-trash-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Educación.</td>
+                                    <td>3-1</td>
+                                    <td>Educar niños</td>
+                                    <td>¡Preparamos a los humanos del futuro!</td>
+                                    <td>Jardín de niños, guarderías, salas cunas y escuelas.</td>
+                                    <td>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS1"><i class="bi bi-eye-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS2"><i class="bi bi-pencil-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-danger" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal2"><i class="bi bi-trash-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>Educación.</td>
+                                    <td>3-2</td>
+                                    <td>Educar adolescentes</td>
+                                    <td>¡Direccionamos a los jóvenes adultos hacia el mejor camino!</td>
+                                    <td>Colegios, secundarías, institutos y colegios sabatinos.</td>
+                                    <td>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS1"><i class="bi bi-eye-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalTS2"><i class="bi bi-pencil-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-danger" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal2"><i class="bi bi-trash-fill"></i></button>
+                                    </td>
+                                    <td>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1"></label>
+                                        </div>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
-                        <div>
-
-                            <button type="submit" class="btn btn-danger">Eliminar</button>
-                            <!-- Button trigger modal -->
-
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal1">
-                                Registrar
-                            </button>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar la Información
-                                            </h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Código</label>
-                                                <input type="number" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <div class="input-group mb-3">
-                                                    <input type="file" class="form-control" id="inputGroupFile02">
-                                                    <label class="input-group-text"
-                                                        for="inputGroupFile02">Imagen</label>
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Cantidad</label>
-                                                <input type="number" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Descripción</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Valor</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Inventario</label>
-                                                <input type="number" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Categorías</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Fecha</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-
-
-
-
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Cerrar</button>
-                                        <a href="producto.html" type="button" class="btn btn-primary">Registrar</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Actualizar
-                            </button>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar la
-                                                Información
-                                            </h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Código</label>
-                                                <input type="number" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <div class="input-group mb-3">
-                                                    <input type="file" class="form-control" id="inputGroupFile02">
-                                                    <label class="input-group-text"
-                                                        for="inputGroupFile02">Imagen</label>
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Cantidad</label>
-                                                <input type="number" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Descripción</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Valor</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Inventario</label>
-                                                <input type="number" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Categorías</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Fecha</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="">
-                                            </div>
-
-
-
-
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Cerrar</button>
-                                        <a href="producto.html" type="button" class="btn btn-success">Actualizar</a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
                     </div>
                 </div>
             </div>
