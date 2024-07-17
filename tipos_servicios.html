@@ -21,7 +21,7 @@
                     <i class="lni lni-grid-alt"></i>
                 </button>
                 <div class="sidebar-logo">
-                    <a href="panel.html">TIENDA E.R.</a>
+                    <a href="panel.html">MANZANAS</a>
                 </div>
             </div>
             <ul class="sidebar-nav">
@@ -32,35 +32,35 @@
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="usuario.html" class="sidebar-link">
+                    <a href="municipios.html" class="sidebar-link">
                         <i class="lni lni-agenda"></i>
-                        <span>Usuarios</span>
+                        <span>Municipios</span>
                     </a>
                 </li>
 
 
                 <li class="sidebar-item">
-                    <a href="cliente.html" class="sidebar-link">
+                    <a href="manzanas.html" class="sidebar-link">
                         <i class="lni lni-popup"></i>
-                        <span>Clientes</span>
+                        <span>Manzanas</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="categoria.htm" class="sidebar-link">
+                    <a href="categorias_servicios.html" class="sidebar-link">
                         <i class="lni lni-control-panel"></i>
-                        <span>Categorías</span>
+                        <span>Categorías de Servicios</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="producto.html" class="sidebar-link">
+                    <a href="tipos_servicios.html" class="sidebar-link">
                         <i class="lni lni-slack-line"></i>
-                        <span>Productos</span>
+                        <span>Tipos de Servicios</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="pedido.htm" class="sidebar-link">
+                    <a href="mujeres_cuidadoras.html" class="sidebar-link">
                         <i class="lni lni-cart"></i>
-                        <span>Pedidos</span>
+                        <span>Mujeres Cuidadoras</span>
                     </a>
                 </li>
             </ul>
@@ -162,51 +162,33 @@
                                                 placeholder="">
                                         </div>
                                         <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">¿Cuenta con
-                                                establecimientos disponibles?</label>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="inlineRadio1" value="option1">
-                                                <label class="form-check-label" for="inlineRadio1">No</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    class="form-check-input" id="validationFormCheck1" required="">
-                                                <label class="form-check-label" for="inlineRadio2">Si</label>
-                                                <div class="valid-feedback">
-                                                    <label for="exampleFormControlInput1" class="form-label">¿Con
-                                                        cuántos
-                                                        establecimientos disponibles cuenta?</label>
-                                                    <button type="button" class="btn btn-primary justify-content-end"
-                                                        data-bs-toggle="modal" data-bs-target="#S1">
-                                                        1
-                                                    </button>
-                                                    <div class="modal fade" id="S1" tabindex="-1"
-                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <button type="button" class="btn-close"
-                                                                        data-bs-dismiss="modal"
-                                                                        aria-label="Close"></button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <div class="mb-3">
-                                                                        <h1 class="modal-title fs-5"
-                                                                            id="exampleModalLabel">
-                                                                            Información del primer establecimiento</h1>
-                                                                        <label for="exampleFormControlInput1"
-                                                                            class="form-label">Código</label>
-                                                                        <input type="number" class="form-control"
-                                                                            id="exampleFormControlInput1"
-                                                                            placeholder="">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <label for="exampleFormControlInput1" class="form-label">Código del
+                                                establecimiento</label>
+                                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Nombre del
+                                                establecimiento</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Responsable del
+                                                establecimiento</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Tipo de
+                                                establecimiento</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
                                         </div>
                                     </div>
                                     <div class="modal-footer">
@@ -220,30 +202,35 @@
                         </div>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-success justify-content-end" data-bs-toggle="modal"
-                            data-bs-target="#exampleModalCS2">
+                            data-bs-target="#exampleModalTS2">
                             Actualizar
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCS2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        <div class="modal fade" id="exampleModalTS2" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar
-                                            la Información
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar la información
                                         </h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">Código</label>
-                                            <input type="Number" class="form-control" id="exampleFormControlInput1"
+                                            <label for="exampleFormControlInput1" class="form-label">Categoría</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
                                                 placeholder="">
                                         </div>
                                         <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                            <label for="exampleFormControlInput1" class="form-label">Código del
+                                                servicio</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Servicio</label>
                                             <input type="text" class="form-control" id="exampleFormControlInput1"
                                                 placeholder="">
                                         </div>
@@ -253,8 +240,37 @@
                                                 placeholder="">
                                         </div>
                                         <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Tipos de
+                                                establecimientos</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Código del
+                                                establecimiento</label>
+                                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Nombre del
+                                                establecimiento</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Responsable del
+                                                establecimiento</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                        <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label">Tipo de
-                                                servicios</label>
+                                                establecimiento</label>
                                             <input type="text" class="form-control" id="exampleFormControlInput1"
                                                 placeholder="">
                                         </div>
@@ -262,7 +278,7 @@
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Cerrar</button>
-                                        <button type="button" class="btn btn-primary"
+                                        <button type="button" class="btn btn-success"
                                             data-bs-dismiss="modal">Actualizar</button>
                                     </div>
                                 </div>
@@ -296,6 +312,41 @@
                                     <td>
                                         <button class="btn btn-primary" data-bs-toggle="modal"
                                             data-bs-target="#exampleModalTS1"><i class="bi bi-eye-fill"></i></button>
+                                        <div class="modal fade" id="exampleModalTS1" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div
+                                                    class="modal-content d-flex justify-content-center align-items-center">
+                                                    <p class="fw-bold m-2">Servicios de Manzanas de Cuidado</p><br>
+
+                                                    <div class="row">
+                                                        <div class="col-6 ">
+                                                            <div class="card" style="width: 13rem;">
+                                                                <div class="card-body">
+                                                                    <p class="fw-bold text-center">Establecimiento que
+                                                                        ofrece el
+                                                                        servicio</p>
+                                                                    <img src="img/lavanderia.webp" width="150px"
+                                                                        style="border-radius: 20px;">
+                                                                    <p class="fw-bold">Código:</p>
+                                                                    <p>111</p>
+                                                                    <p class="fw-bold">Nombre:</p>
+                                                                    <p>Lavaropa</p>
+                                                                    <p class="fw-bold">Responsable:</p>
+                                                                    <p>Michael Jackson</p>
+                                                                    <p class="fw-bold">Dirección:</p>
+                                                                    <p>Calle 1 #1-1</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </td>
                                     <td>
                                         <button class="btn btn-success" data-bs-toggle="modal"
